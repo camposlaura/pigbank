@@ -18,7 +18,7 @@ function HomePage() {
                     <img src={piggyBank} alt="desenho de um cofre em formato de porquinho" />
                     <div className='div-1-info'>
                         <h2>A mais nova alternativa de banco digital chegou!</h2>
-                        <p>Feito para caber no seu bolso e otimizar<br/>seu tempo. O PigBank veio pra ficar</p>
+                        <p>Feito para caber no seu bolso e otimizar<br/>seu tempo. O <strong>PigBank</strong> veio pra ficar.</p>
                         <Button href='/create-account'>Abra a sua conta</Button>
                     </div>
                 </div>

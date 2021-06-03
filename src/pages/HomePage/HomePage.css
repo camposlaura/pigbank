@@ -1,5 +1,8 @@
 .page-container {
     margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .div-1, .div-2 {
@@ -12,6 +15,8 @@
 }
 
 .div-1-info {
+    height: 100%;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;

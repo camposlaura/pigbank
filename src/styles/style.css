@@ -1,8 +1,11 @@
 /* FIXME: ver pq que o footer não fica coladinho no final da página */
 body {
+    margin: 0;
+    padding: 0;
     display: grid;
     min-height: 1vh;
     grid-template-rows: auto 1fr auto;
+    background-color: #f0f0f0;
 }
 
 h1 {

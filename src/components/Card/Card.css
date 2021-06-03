@@ -1,6 +1,27 @@
 .card {
     max-width: 750px;
     max-height: 200px;
-    background-color: #F6CACF;
-    
+    background-color: var(--card-rose);
+    border-radius: .5rem;
+    display: flex;
+}
+
+.coin-name {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.coin-info {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#initials {
+    font-size: 5rem;
 }

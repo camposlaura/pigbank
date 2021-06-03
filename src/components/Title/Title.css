@@ -8,12 +8,12 @@
     content: "";
     width: 30%;
     height: 1rem;
-    background-color: #5B79F1;
+    background-color: var(--title-blue);
 }
 
 .title::after {
     content: "";
     width: 30%;
     height: 1rem;
-    background-color: #5B79F1;
+    background-color: var(--title-blue);
 }

@@ -4,4 +4,9 @@
     font-size: 1em;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
+    --body-background: #f0f0f0;
+    --card-rose: #F6CACF;
+    --pigbank-red: #FB4A4A;
+    --footer-background: #333333;
+    --title-blue: #5B79F1;
 }

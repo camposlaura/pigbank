@@ -7,7 +7,7 @@ header {
 }
 
 header h1 {
-    color: #FB4A4A;
+    color: var(--pigbank-red);
 }
 
 .nav-container {

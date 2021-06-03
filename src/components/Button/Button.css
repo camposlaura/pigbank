@@ -6,8 +6,8 @@ button {
     font-size: 1.5rem;
     font-weight: 500;
 
-    background-color: #F6949E;
-    border: 4px solid #F6949E;
+    background-color: var(--card-rose);
+    border: 4px solid var(--card-rose);
     border-radius: .5rem;
 
     cursor: pointer;
@@ -15,8 +15,8 @@ button {
 }
 
 button:hover {
-    color: #F6949E;
-    background-color: #f0f0f0;
+    color: var(--card-rose);
+    background-color: var(--body-background);
 }
 
 .header-buttons {

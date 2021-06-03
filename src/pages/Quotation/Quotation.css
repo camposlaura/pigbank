@@ -6,3 +6,16 @@
     align-items: center;
     gap: 1rem;
 }
+
+.circles-container {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.circles {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    z-index: -1;
+}

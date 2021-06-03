@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Title from '../../components/Title/Title'
 import Card from '../../components/Card/Card'
+import circles from '../../assets/circles.svg'
 import {getData} from '../../service/api'
 import './Quotation.css'
 
@@ -37,6 +38,10 @@ function Quotation() {
 
                 { coins.map((info, key) => <Card info={info} key={key} />) }
 
+            </div>
+
+            <div className="circles-container">
+                <img src={circles} alt="circulos coloridos" className='circles'/>
             </div>
 
             <Footer />

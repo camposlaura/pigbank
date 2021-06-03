@@ -5,6 +5,7 @@ import Button from '../../components/Button/Button'
 import Title from '../../components/Title/Title'
 import piggyBank from '../../assets/piggy-bank.svg'
 import people from '../../assets/people.svg'
+import circles from '../../assets/circles.svg'
 import './HomePage.css'
 
 function HomePage() {
@@ -30,6 +31,10 @@ function HomePage() {
                     <img src={people} alt="desenho de pessoas com dinheiro" />
                     <Button href='quotation'>Cotação Moedas</Button>
                 </div>
+            </div>
+
+            <div className="circles-container">
+                <img src={circles} alt="circulos coloridos" className='circles'/>
             </div>
 
             <Footer />

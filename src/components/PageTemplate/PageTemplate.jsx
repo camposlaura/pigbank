@@ -6,16 +6,18 @@ import './PageTemplate.css'
 
 function PageTemplate({title, imgSrc, imgAlt, text}) {
     return (
-        <div className='page-container'>
+        <>
             <Header></Header>
 
-            <h1>{title}</h1>
-            <img src={imgSrc} alt={imgAlt} />
-            <p>{text}</p>
-            <Button href='/'>Voltar</Button>
+            <div className='container'>    
+                <h1>{title}</h1>
+                <img src={imgSrc} alt={imgAlt} />
+                <p>{text}</p>
+                <Button href='/'>Voltar</Button>
+            </div>      
 
             <Footer></Footer>
-        </div>
+        </>    
     )
 }
 

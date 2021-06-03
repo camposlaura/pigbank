@@ -1,17 +1,8 @@
 /* FIXME: a fonte não tá sendo importada direito não */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-.root {
+:root {
+    font-size: 1em;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
-}
-
-h1 {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 2rem;
-    font-weight: 500;
 }

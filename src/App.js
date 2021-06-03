@@ -4,6 +4,7 @@ import Button from './components/Button/Button'
 
 // import './styles/reset.css'
 import './styles/root.css'
+import './styles/style.css'
 
 function App() {
   return (

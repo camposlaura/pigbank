@@ -15,8 +15,6 @@
 }
 
 .div-1-info {
-    height: 100%;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;

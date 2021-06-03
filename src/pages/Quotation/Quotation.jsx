@@ -31,9 +31,9 @@ function Quotation() {
     return (
         <>
             <Header />
+            <Title text='Cotação Moedas' className='title'/>
 
             <div className="coins-container">
-                <Title text='Cotação Moedas' />
 
                 { coins.map((info, key) => <Card info={info} key={key} />) }
 

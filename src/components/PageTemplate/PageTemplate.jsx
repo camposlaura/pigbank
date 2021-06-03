@@ -9,7 +9,7 @@ function PageTemplate({title, imgSrc, imgAlt, text}) {
         <>
             <Header></Header>
 
-            <div className='container'>    
+            <div className='template-container'>    
                 <h1>{title}</h1>
                 <img src={imgSrc} alt={imgAlt} />
                 <p>{text}</p>

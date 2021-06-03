@@ -12,7 +12,7 @@ function HomePage() {
         <>
             <Header />
 
-            <div className='page-container'>
+            <div className='home-container'>
 
                 <div className='div-1'>
                     <img src={piggyBank} alt="desenho de um cofre em formato de porquinho" />

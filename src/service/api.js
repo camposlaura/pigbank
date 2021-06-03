@@ -1,15 +1,13 @@
-import {useState} from 'react'
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL:'https://economia.awesomeapi.com.br/json/all'
+    baseURL:'https://economia.awesomeapi.com.br'
 })
 
-export default function GetData() {
-    const [info, setInfo] = useState(null)
-    axios.get(api.baseURL).then(res => setInfo(res));
-    console.log(info); // teste
-    return info;
+async function getData() {
+    const res = await api.get('/json/all')
+    console.log(res.data); // teste
+    return res.data;
 }
 
-// export {api}
+export { getData }

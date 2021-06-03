@@ -1,0 +1,19 @@
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title::before {
+    content: "";
+    width: 30%;
+    height: 1rem;
+    background-color: #5B79F1;
+}
+
+.title::after {
+    content: "";
+    width: 30%;
+    height: 1rem;
+    background-color: #5B79F1;
+}

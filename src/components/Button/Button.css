@@ -16,7 +16,7 @@ button {
 
 button:hover {
     color: #F6949E;
-    background-color: white;
+    background-color: #f0f0f0;
 }
 
 .header-buttons {

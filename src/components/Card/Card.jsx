@@ -1,7 +1,6 @@
 import React from 'react'
 import './Card.css'
 
-// FIXME: ajeitar esse props pra receber oq eu quero direitinho
 function Card({info, key}) {
 
     let coinName = info.name.split("/");

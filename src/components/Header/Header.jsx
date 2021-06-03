@@ -8,9 +8,8 @@ function Header() {
             <h1>PigBank</h1>
             <nav >
                 <ul className='nav-container'>
-                    {/* TODO: trocar isso aqui por botões */}
-                    <li><Button className='header-buttons'>Cotação moedas</Button></li>
-                    <li><Button className='header-buttons'>Acessar</Button></li>
+                    <li><Button className='header-buttons' href='/quotation'>Cotação moedas</Button></li>
+                    <li><Button className='header-buttons' href='/access'>Acessar</Button></li>
                 </ul>
             </nav>
         </header>

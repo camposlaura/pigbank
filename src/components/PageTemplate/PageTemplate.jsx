@@ -12,7 +12,7 @@ function PageTemplate({title, imgSrc, imgAlt, text}) {
             <h1>{title}</h1>
             <img src={imgSrc} alt={imgAlt} />
             <p>{text}</p>
-            <Button>Voltar</Button>
+            <Button href='/'>Voltar</Button>
 
             <Footer></Footer>
         </div>

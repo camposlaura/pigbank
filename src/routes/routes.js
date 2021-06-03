@@ -14,9 +14,9 @@ function Routes() {
                 <Route exact path='/quotation' component={Quotation} />
                 <Route exact path='/coming-soon' component={ComingSoon} />
                 <Route exact path='/404' component={NotFound} />
-                <Route path ='/'><Redirect to='/404'/></Route>
                 <Route path ='/access'><Redirect to='/coming-soon'/></Route>
                 <Route path ='/create-account'><Redirect to='/coming-soon'/></Route>
+                <Route path ='/'><Redirect to='/404'/></Route>
             </Switch>
         </Router>
     )

@@ -19,7 +19,7 @@ function HomePage() {
                     <div className='div-1-info'>
                         <h2>A mais nova alternativa de banco digital chegou!</h2>
                         <p>Feito para caber no seu bolso e otimizar<br/>seu tempo. O PigBank veio pra ficar</p>
-                        <Button>Abra a sua conta</Button>
+                        <Button href='/create-account'>Abra a sua conta</Button>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ function HomePage() {
                 <div className='div-2'>
                     <p>Ao contrário do ditado popular, por aqui, quem se mistura<br/>com porco não come farelo! Conheça nossa plataforma<br/>exclusivamente dedicada para ampliar o seu patrimônio.</p>
                     <img src={people} alt="desenho de pessoas com dinheiro" />
-                    <Button>Cotação Moedas</Button>
+                    <Button href='quotation'>Cotação Moedas</Button>
                 </div>
             </div>
 

@@ -5,6 +5,9 @@ function Card({info, key}) {
 
     let coinName = info.name.split("/");
 
+    let lastUpdated = info.create_date.split('');
+    let lastUpdatedFormated = [lastUpdated[8], lastUpdated[9], '/', lastUpdated[5], lastUpdated[6], '/', lastUpdated.slice(0,4).join(''), ' às ', lastUpdated.slice(11,19).join('') ].join('');
+
     return (
         <div className='card' key={key}>
 
@@ -16,7 +19,7 @@ function Card({info, key}) {
             <div className='coin-info'>
                 <h3>Máxima: R$ {info.high}</h3>
                 <h3>Mínima: R$ {info.low}</h3>
-                <h3>Atualizado em {info.create_date}</h3>
+                <h3 id='last-updated'>Atualizado em {lastUpdatedFormated}</h3>
             </div>
             
         </div>

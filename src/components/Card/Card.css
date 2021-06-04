@@ -28,3 +28,7 @@
 #initials {
     font-size: 5rem;
 }
+
+#last-updated {
+    color: #00000080;
+}

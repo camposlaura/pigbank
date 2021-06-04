@@ -11,9 +11,11 @@ function Card({info, key}) {
     return (
         <div className='card' key={key}>
 
-            <div className='coin-name'>
-                <h3>{coinName[0]}</h3>
-                <h3 id='initials'>{info.code}</h3>
+            <div className='coin-name-out'>
+                <div className='coin-name-in'>
+                    <h3 id='name'>{coinName[0]}</h3>
+                    <h3 id='initials'>{info.code}</h3>
+                </div>
             </div>
 
             <div className='coin-info'>
